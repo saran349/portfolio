@@ -55,7 +55,8 @@ section{
 #home{
     text-align: left;
     padding-top: 40px;
-    min-height: 55vh;
+    min-height: auto;
+    padding-bottom: 20px;
 }
 
 #home h1{
@@ -337,4 +338,23 @@ section{
 html{
     scroll-behavior: smooth;
 }
+@media(max-width:768px){
 
+    #home{
+        min-height: auto;
+        padding: 20px;
+    }
+
+    #about{
+        margin-top: -40px;
+    }
+
+    .about-text h1{
+        font-size: 38px;
+    }
+
+    .about-text p{
+        font-size: 18px;
+        line-height: 1.7;
+    }
+}
