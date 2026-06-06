@@ -333,7 +333,37 @@ section{
     letter-spacing: 3px;
 }
 
-/* Optional Scroll Smooth */
+.resume-container{
+    margin-top: 25px;
+    text-align: center;
+}
+
+.resume-btn{
+    display: inline-block;
+    padding: 14px 28px;
+
+    background: linear-gradient(135deg,#38bdf8,#2563eb);
+
+    color: white;
+    text-decoration: none;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    border-radius: 12px;
+
+    transition: 0.3s ease;
+
+    box-shadow: 0px 5px 15px rgba(56,189,248,0.4);
+}
+
+.resume-btn:hover{
+    transform: translateY(-5px) scale(1.05);
+
+    box-shadow:
+    0px 0px 20px rgba(56,189,248,0.6),
+    0px 0px 40px rgba(56,189,248,0.3);
+}
 
 html{
     scroll-behavior: smooth;
@@ -357,4 +387,5 @@ html{
         font-size: 18px;
         line-height: 1.7;
     }
+
 }
