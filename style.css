@@ -54,7 +54,7 @@ section{
 
 #home{
     text-align: left;
-    padding-top: 70px;
+    padding-top: 40px;
     min-height: 55vh;
 }
 
@@ -91,13 +91,9 @@ section{
     align-items: center;
     justify-content: none;
     gap: 30px;
-    padding: 40px 50px;
+    padding: 10px 20px;
 }
 
-.about-image img{
-    width: 450px;
-    border-radius: 20px;   
-}
 
 .about-text{
     max-width:none;
